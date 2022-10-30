@@ -15,47 +15,47 @@ body{
     height:100vh;
 }
 
-.main{
+main{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 320px;
-    height: 497px;
+    width: 20rem;
+    height:31.0625rem;
     background-color: hsl(0, 0%, 100%);
     border-radius: 25px;
     text-align: center;
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+    box-shadow: 0.3125rem 0.3125rem 0.3125rem rgba(0, 0, 0, 0.3);
     
     
 }
 .qr{
 
-    width: 288px;
-    height: 288px;
-    border-radius: 30px;
-    margin-top: 17px;
-    padding: 17px 16px 15px;
+    width: 18rem;
+    height: 18rem;
+    border-radius: 1.875rem;
+    margin-top: 1.0625rem;
+    padding: 1.0625rem 1rem 0.9375rem;
     
 }
 
 h1{
     color: hsl(218, 44%, 22%);
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: 700; 
-    padding: 0 35px 0;
+    padding: 0 2.1875rem 0;
 }
 
 p{
     color: hsl(220, 15%, 55%);
-    font-size: 15px;
+    font-size: 0.9375rem;
     font-weight: 400;
-    padding: 0 35px 42px;
+    padding: 0 2.1875rem 2.625rem;
 }
 .attribution { 
-    font-size: 11px; 
+    font-size: 0.6875rem; 
     text-align: center; 
-    margin-top: 20px;
+    margin-top: 1.25rem;
 }
 
 .attribution a { 
@@ -80,36 +80,36 @@ p{
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        margin-top: 86px;
-        width: 324px;
-        height: 501px;
+        margin-top: 5.375rem;
+        width: 20.25rem;
+        height: 31.3125rem;
         background-color: hsl(0, 0%, 100%);
         border-radius: 25px;
         text-align: center;
-        box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+        box-shadow: 0.3125rem 0.3125rem 0.3125rem rgba(0, 0, 0, 0.3);
         
     }
     .qr{
 
-        width: 288px;
-        height: 288px;
-        border-radius: 30px;
-        margin-top: 17px;
-        padding: 17px 16px 15px;
+        width: 18rem;
+        height: 18rem;
+        border-radius: 1.875rem;
+        margin-top: 1.0625rem;
+        padding: 1.0625rem 1rem 0.9375rem;
         
     }
 
     h1{
         color: hsl(218, 44%, 22%);
-        font-size: 20px;
+        font-size: 1.25rem;
         font-weight: 700; 
-        padding: 0 35px 0;
+        padding: 0 2.1875rem 0;
     }
 
     p{
         color:hsl(220, 15%, 55%); 
-        font-size: 15px;
+        font-size: 0.9375rem;
         font-weight: 400;
-        padding: 0 35px 42px;
+        padding: 0 2.1875rem 2.625rem;
     }
 }
